@@ -6,6 +6,11 @@
 }
 
 @font-face {
+  font-family: "Outfit SemiBold";
+  src: url("./assets/fonts/outfit/static/Outfit-SemiBold.ttf");
+}
+
+@font-face {
   font-family: "Outfit Regular";
   src: url("./assets/fonts/outfit/static/Outfit-Regular.ttf");
 }
@@ -32,13 +37,20 @@
 }
 
 .text-preset-three {
+  font-family: "Outfit SemiBold";
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0px;
+}
+
+.text-preset-four {
   font-family: "Outfit Regular";
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0px;
 }
 
-.text-preset-three {
+.text-preset-four-bold {
   font-family: "Outfit Bold";
   font-size: 16px;
   line-height: 150%;
@@ -67,4 +79,101 @@
   /* Border Radius */
   --border-radius1: 12px
   --border-radius2: 24px
+}
+
+/* Styling */
+* {
+  border: 0;
+  margin: 0;
+  word-wrap: break-word;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.cover-photo-container {
+  height: 171px;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.cover-photo {
+  height:100%;
+  width: 100%;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 32px;
+  gap: 32px
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.title {
+  color: var(--stone-900)  
+}
+
+.blurb {
+  color: var(--stone-600);
+}
+
+.preparation-time-section {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  gap:16px;
+  border-radius: 12px;
+  background-color: var(--rose-50);
+}
+
+.preparation-time-section h3 {
+  color: var(--rose-800)
+}
+
+.preparation-time-section li {
+  gap: 8px;
+  color: var(--rose-800);
+}
+
+.preparation-time-section ul {
+  padding-left: 28px;
+}
+
+.preparation-time-section dt, dd {
+  display: inline-block;
+  color: var(--stone-600);
+}
+
+.preparation-time-section dt {
+  padding-left: 16px;
+  font-family: "Outfit Bold";
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0px;
+}
+
+.preparation-time-section dd {
+  font-family: "Outfit Regular";
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
