@@ -1,0 +1,70 @@
+/* Importing fonts */
+
+@font-face {
+  font-family: "Young Serif Regular";
+  src: url("./assets/fonts/young-serif/YoungSerif-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Outfit Regular";
+  src: url("./assets/fonts/outfit/static/Outfit-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Outfit Bold";
+  src: url("./assets/fonts/outfit/static/Outfit-Bold.ttf");
+}
+
+/* Establishing Font Presets and Variables */
+
+.text-preset-one {
+  font-family: "Young Serif Regular";
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: 0px;
+}
+
+.text-preset-two {
+  font-family: "Young Serif Regular";
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: 0px;
+}
+
+.text-preset-three {
+  font-family: "Outfit Regular";
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0px;
+}
+
+.text-preset-three {
+  font-family: "Outfit Bold";
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0px;
+}
+
+:root {
+  /* Spacing */
+  --spacing1: 8px;
+  --spacing2: 12px;
+  --spacing3: 16px;
+  --spacing4: 24px;
+  --spacing5: 32px;
+  --spacing6: 40px;
+  --spacing7: 48px;
+  --spacing8: 128px;
+  /* Colors */
+  --rose-800: rgb(122, 40, 78);
+  --rose-50: rgb(255, 247, 251);
+  --stone-900: rgb(49, 46, 44);
+  --stone-600: rgb(95, 86, 77);
+  --stone-150: rgb(227, 221, 215);
+  --stone-100: rgb(243, 229, 215);
+  --brown-800: rgb(133, 70, 50);
+  --white: rgb(255, 255, 255);
+  /* Border Radius */
+  --border-radius1: 12px
+  --border-radius2: 24px
+}
