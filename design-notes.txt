@@ -1,0 +1,124 @@
+cover-photo-container
+H 171
+W fill
+
+srticle
+gap 32
+padding sides32 upper40
+
+header
+gap 24
+
+title/h1
+font Mobile/text-preset-1
+color stone-900
+
+blurb
+font Desktop/text-preset-4
+color stone-600
+
+preparation-time-section
+padding 24
+gap 16
+corner radius 12
+bgcolor rose 50
+
+preparation-time-section h3
+color rose 800
+font desktop 3
+
+preparation-time-section ul
+gap 8
+
+preparation-time-section li
+gap 8 (between circle and the text content)
+padding-left 8
+
+preparation-time-section dt
+font desktop 4
+bold
+color stone 600
+
+preparation-time-section dd
+font desktop 4
+color stone 600
+
+
+main-section 
+font desktop 4
+color stone 600
+gap 24
+
+main-section ol ul
+gap 8
+
+
+main-section h2
+font desktop 2
+color brown 800
+
+instructions-section li
+color brown 800
+font desktop 4-bold
+
+instructions-section dt
+font desktop 4-bold
+color stone 600
+
+
+instructions-section dd
+font desktop 4
+color stone 600
+
+nutrition-section p
+font desktop 4
+color stone 600
+
+nutrition-section dt
+font desktop 4
+color stone 600
+
+
+nutrition-section dd
+font desktop 4-bold
+color brown 800
+
+hr 
+1px 
+stone 150
+
+
+
+Tablet
+
+
+main
+max width 616
+gap 40
+padding 40
+radius 24
+bgcolor white
+
+cover-photo-container
+H 300
+W fill
+radius 12
+
+article
+padding 0
+
+header
+gap 24
+
+h1
+font desktop 1
+
+preparation-time-section li
+gap 8
+
+
+DESKTOP
+
+
+main
+W 736
