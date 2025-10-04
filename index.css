@@ -303,7 +303,7 @@ ul {
 
 /* Nutrition specific styling */
 
-.nutrition-section p {
+#nutrition-section p {
   color: var(--stone-600);
 }
 
