@@ -301,6 +301,12 @@ ul {
   color: var(--brown-800);
 }
 
+/* Nutrition specific styling */
+
+.nutrition-section p {
+  color: var(--stone-600);
+}
+
 /* Tablet View Styling */
 
 @media (min-width: 768px) {
