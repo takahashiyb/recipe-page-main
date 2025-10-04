@@ -96,6 +96,7 @@ body {
   place-content: center;
   place-items: center;
   background-color: var(--stone-100);
+  padding: 48px 128px;
 }
 
 main {
@@ -331,7 +332,18 @@ ul {
 /* Frontend Mentor Links as Footer */
 
 footer {
-  margin-top: 20px;
+  position: fixed;
+  top: 4px;
+  opacity: 0.25;
+  height: 40px;
+  width: 320px;
+  align-content: center;
+  background-color: var(--stone-150);
+  border-radius: var(--border-radius2);
+}
+
+footer:hover {
+  opacity: 1;
 }
 
 .attribution {
