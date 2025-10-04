@@ -155,7 +155,8 @@ header {
 /* General Styling */
 
 /* Bullet for list */
-ul li {
+ul,
+ol li {
   display: flex;
   list-style-type: none;
 }
@@ -164,6 +165,15 @@ ul li::before {
   content: "•";
   align-self: center;
   padding-right: var(--spacing4);
+}
+
+ol {
+  counter-reset: step;
+}
+
+ol li::before {
+  counter-increment: step;
+  content: counter(step) ".";
 }
 
 /* Preparation Time Section */
@@ -235,11 +245,7 @@ ul {
   color: var(--rose-800);
 }
 
-.main-section ol li {
-  list-style-position: inside;
-}
-
-.main-section ol li::marker {
+.main-section ol li::before {
   font-family: "Outfit Bold";
   font-size: 16px;
   line-height: 150%;
@@ -248,7 +254,6 @@ ul {
 }
 
 .main-section ol li::before {
-  content: "";
   padding-right: var(--spacing3);
 }
 
@@ -260,12 +265,23 @@ ul {
 .main-section table {
   border-collapse: collapse;
 }
+
+.main-section table tr td:first-child {
+  padding-left: var(--spacing5);
+}
+
+.main-section table tr td:last-child {
+  padding-right: var(--spacing5);
+}
+
 .main-section table tr td {
   padding: var(--spacing2) 0px;
 }
+
 .main-section table tr:first-child td {
   padding-top: 0px;
 }
+
 .main-section table tr:last-child td {
   padding-bottom: 0px;
 }
@@ -279,6 +295,7 @@ ul {
 .main-section table .label {
   color: var(--stone-600);
 }
+
 .main-section table .value {
   color: var(--brown-800);
 }
