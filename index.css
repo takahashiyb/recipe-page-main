@@ -96,7 +96,7 @@ body {
   place-content: center;
   place-items: center;
   background-color: var(--stone-100);
-  padding: 48px 128px;
+  padding: 128px 40px;
 }
 
 main {
